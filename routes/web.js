@@ -4,7 +4,7 @@ import path from 'path';
 import CONSTANTS from '../config/constants.js';
 
 import pessoasApi from "./pessoasApi.js";
-import ListPublicFilesController from '../app/Controllers/ListPublicFilesController.js';
+import ListPublicFilesController from '../app/Controller/ListPublicFilesController.js';
 
 export default (function () {
 

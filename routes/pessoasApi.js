@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import ListPessoaApiController from '../app/Controllers/PessoaApi/ListPessoaApiController.js';
+import ListPessoaApiController from '../app/Controller/PessoaApi/ListPessoaApiController.js';
 
 export default (function () {
 

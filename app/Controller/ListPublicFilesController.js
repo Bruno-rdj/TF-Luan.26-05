@@ -7,7 +7,7 @@ export default async (request, response) => {
 
     readdir(dirPath, (err, files) => {
         if (err) {
-            return res.status(CONSTANTS.HTTP.SERVER_ERROR).send('Erro ao ler o diretório');
+            return response.status(CONSTANTS.HTTP.SERVER_ERROR).send('Erro ao ler o diretório');
         }
 
         const fileList = files.map(file => {
